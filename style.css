@@ -1,0 +1,197 @@
+@font-face {
+    font-family: arcane;
+    src: url(./arcane_nine/Arcane\ Nine.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 100ms;
+}
+
+body {
+    background-color: #FFE7FF;
+    color: #000000;
+}
+
+header {
+    background-color: #FEC7FE;
+    color: #000000;
+    padding: 50px;
+    text-align: center;
+}
+
+header button {
+    border: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #333;
+    background-color: #ffffff;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px #ffffff;
+}
+
+section {
+    padding: 40px;
+    margin: 20px auto;
+    height: 100vh;
+
+}
+
+div {
+    width: 50%;
+}
+
+img {
+    height: 500px;
+    border-radius: 19px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+#sobre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+#sobre p {
+    font-size: 1.9em;
+    line-height: 2.5rem;
+}
+h1{
+    font-size: 4em;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: arcane;
+
+}
+
+h2 {
+    font-size: 4em;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: arcane;
+}
+
+h3 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: arcane;
+}
+
+h4 {
+    text-align: center;
+    
+}
+
+.projeto {
+    background-color: #F8DAF8;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    width: 40%;
+    height: 250px;
+    text-align: center;
+    line-height: 1.5rem;
+    margin-left: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.projeto2 {
+    background-color: #F8DAF8;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    width: 40%;
+    height: 250px;
+    text-align: center;
+    line-height: 1.5rem;
+    margin-left: 56%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+
+.projeto p {
+    font-size: 1.3em;
+}
+
+.projeto2 p {
+    font-size: 1.3em;
+}
+
+.projeto button {
+    border: none;
+    margin-top: 40px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #333;
+    background-color: #ffffff;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px #ffffff;
+}
+
+.projeto2 button {
+    border: none;
+    margin-top: 40px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #333;
+    background-color: #ffffff;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px #ffffff;
+}
+
+
+
+@media (max-width:480px) {
+#sobre p{
+    font-size: 20px;
+}
+
+#sobre img{
+    height: 200px;
+}
+
+
+}
+
+
+/* -------MODO ESCURO-------- */
+
+.dark-theme {
+    background-color: #333;
+    color: #ffffff;
+
+}
+
+.dark-theme header {
+    background-color: #222;
+
+}
+
+.dark-theme header button {
+    background-color: #444;
+    color: #ffffff;
+    box-shadow: 0px 0px 10px #000000;
+
+}
+
+.dark-theme .projeto {
+    background-color: #222;
+}
+
+.dark-theme .projeto2 {
+    background-color: #222;
+}
+.dark-theme h1{
+    color: #ffffff;
+}
